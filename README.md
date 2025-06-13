@@ -4,7 +4,8 @@ A comprehensive analysis of forecasting methods for financial time series data, 
 This project implements and compares six different time series forecasting approaches on financial data, with a focus on developing a novel lagged ARIMA model with bias correction that dramatically outperforms traditional methods.
 📊 Key Results
 
-<img width="757" alt="image" src="https://github.com/user-attachments/assets/dbb9f89b-671a-4f06-a8eb-1dce91214912" />
+<img width="745" alt="image" src="https://github.com/user-attachments/assets/fa565f0f-4967-4fb3-ba5e-5c5a4118620c" />
+
 
 
 Key Finding
@@ -13,8 +14,8 @@ The lagged ARIMA model with bias correction achieves a 97% reduction in RMSE com
 
 Traditional Models
 
-ARIMA(1,0,0) and ARIMA(2,1,2)
-OLS Regression with lagged features
+1. ARIMA(1,0,0) and ARIMA(2,1,2)
+2. OLS Regression with lagged features
 
 
 Deep Learning
@@ -24,9 +25,9 @@ LSTM with optimized architecture for fast training
 
 Novel Approach
 
-ARIMA(1,0,0) with lag adjustment
-Bias correction mechanism
-Walk-forward validation framework
+1. ARIMA(1,0,0) with lag adjustment
+2. Bias correction mechanism
+3. Walk-forward validation framework
 
 
 
